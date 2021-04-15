@@ -1,0 +1,2 @@
+monotony@example.com=Monotony
+hanako@exmple.com=Hanako
