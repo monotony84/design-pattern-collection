@@ -7,12 +7,13 @@ import java.io.IOException;
 public class BigChar {
     private char charName;
     private String fontData;
+    private String filePath = "src/dp/gof/flyweight/";
 
     public BigChar(char charName) {
         this.charName = charName;
 
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("big" + charName +".txt"));
+            BufferedReader reader = new BufferedReader(new FileReader(filePath + "big" + charName +".txt"));
 
             String line;
             StringBuffer buf = new StringBuffer();
